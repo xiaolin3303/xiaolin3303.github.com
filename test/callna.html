@@ -10,6 +10,7 @@
 			height: 100%;
 			margin: 0;
 			padding: 0;
+			font-size: 14px;
 		}
 		#schema {
 			width: 90%;
@@ -42,7 +43,7 @@
 	</style>
 </head>
 <body>
-	<div><input id="schema" type="text"></div>
+	<div><input id="schema" type="text" placeholder="Schema here"></div>
 	<div><button id="call-btn">调起</button></div>
 	<div id="info"></div>
 	<script type="text/javascript">
@@ -55,7 +56,7 @@
 			var msg = ''
 			if (schema) {
 				location.href = schema;
-				msg = 'Trigger at timestamp : ' + (+new Date());
+				msg = 'call `' + schema + '` at timestamp : ' + (+new Date());
 			} else {
 				msg = 'schema is required!';
 			}
