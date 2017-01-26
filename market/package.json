@@ -1,0 +1,29 @@
+{
+  "name": "Creative market",
+  "version": "1.0.0",
+  "description": "build with fis, es6 and Vue",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.14.0",
+    "babel-preset-es2015": "^6.14.0",
+    "fis-parser-bdtmpl": "0.0.3",
+    "fis-parser-less": "^0.1.3",
+    "fis3-hook-commonjs": "^0.1.25",
+    "fis3-parser-babel": "^1.2.4",
+    "fis3-parser-less-2.x": "^0.1.4",
+    "fis3-postpackager-loader": "^2.1.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaolin3303/market"
+  },
+  "keywords": [
+    "fis, webapp, es6, Vue"
+  ],
+  "author": "xiaolin3303",
+  "license": "MIT"
+}
