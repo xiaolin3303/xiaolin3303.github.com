@@ -20,7 +20,7 @@ define('market:controller/detail/detailControl', function(require, exports, modu
   
   var _staticJsControllerJs2 = _interopRequireDefault(_staticJsControllerJs);
   
-  var style = ".market-detail-page .cover{width:100%;display:block}.market-detail-page .poetry{padding:30px 50px}.market-detail-page .poetry p{line-height:30px}.market-detail-page .poetry .end{display:inline-block;height:5px;width:5px;border:2px solid red;border-radius:50%}";
+  var style = ".market-detail-page .cover{width:100%;display:block}.market-detail-page .poetry{padding:30px 50px;padding-bottom:0}.market-detail-page .poetry p{line-height:30px}.market-detail-page .poetry .end{display:inline-block;height:5px;width:5px;border:2px solid red;border-radius:50%}";
   var tpl = "<div class=\"market-detail-page\">\n\t<img src=\"https://xiaolin3303.github.io/market/static/img/collections/work1_7d3974b.png\" alt=\"\" class=\"cover\">\n\t<div class=\"poetry\">\n\t\t<p>渊池深</p>\n\t\t<p>北冥秋</p>\n\t\t<p>鱼鸟不分水与云</p>\n\t\t<p>水云不辨山和月</p>\n\t\t<p><i class=\"end\"></i></p>\n\t</div>\n</div>";
   
   require.loadCss({
