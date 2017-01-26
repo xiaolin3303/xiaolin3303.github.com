@@ -1,5 +1,5 @@
 <div class="market-detail-page">
-	<img src="https://xiaolin3303.github.io/market/static/img/collections/work1_7d3974b.png" alt="" class="cover">
+	<img src="https://xiaolin3303.github.io/market/static/img/collections/work1_0fc604b.png" alt="" class="cover">
 	<div class="poetry">
 		<p>渊池深</p>
 		<p>北冥秋</p>
